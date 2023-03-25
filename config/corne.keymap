@@ -142,30 +142,30 @@
         DEFAULT {
             label = "DEFAULT";
             bindings = <
-   &kp ESC  &kp Q  &kp W      &kp E       &kp R      &kp T      &kp Y        &kp U      &kp I      &kp O     &kp P       &kp BSPC
-&kp LSHIFT  &kp A  &kp S      &kp D       &kp F      &kp G      &kp H        &kp J      &kp K      &kp L  &kp SEMI        &kp RET
- &kp LCTRL  &kp Z  &kp X      &kp C       &kp V   &kp CAPS      &kp B        &kp N      &kp M  &kp COMMA   &kp DOT  &kp RIGHT_ALT
-                          &lt 4 TAB  &lt 1 LGUI  &kp SPACE    &kp RET  &lt 2 SPACE  &lt 5 ESC
+   &kp ESC  &kp Q  &kp W      &kp E       &kp R      &kp T       &kp Y        &kp U      &kp I      &kp O     &kp P       &kp BSPC
+&kp LSHIFT  &kp A  &kp S      &kp D       &kp F      &kp G       &kp H        &kp J      &kp K      &kp L  &kp SEMI        &kp RET
+ &kp LCTRL  &kp Z  &kp X      &kp C       &kp V      &kp B       &kp B        &kp N      &kp M  &kp COMMA   &kp DOT  &kp RIGHT_ALT
+                          &lt 4 TAB  &lt 1 LGUI  &kp SPACE    &kp CAPS  &lt 2 SPACE  &lt 5 ESC
             >;
         };
 
         SYMBOT {
             label = "SYMBOT";
             bindings = <
-&kp EXCL     &kp DOT   &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET      &kp SQT  &kp LPAR    &kp UP     &kp RPAR     &none  &kp BSPC
-&kp AMPS    &kp STAR  &kp EQUAL  &kp PLUS  &kp MINUS  &kp UNDER      &kp DQT  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LBRC  &kp RBRC
-&kp FSLH  &kp TILDE2   &kp BSLH  &kp PIPE   &kp SEMI  &kp COLON       &kp LT    &kp GT  &kp DOWN  &kp AT_SIGN  &kp LBKT  &kp RBKT
-                                   &trans      &none      &to 0    &kp ENTER     &mo 3     &mo 2
+&kp EXCL  &kp AT_SIGN   &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET     &kp AMPS  &kp STAR    &kp UP     &kp LPAR   &kp RPAR            &kp DEL
+&kp AMPS     &kp STAR  &kp EQUAL  &kp PLUS  &kp MINUS  &kp UNDER    &kp EQUAL  &kp LEFT  &kp DOWN    &kp RIGHT  &kp COLON  &kp DOUBLE_QUOTES
+&kp FSLH   &kp TILDE2   &kp BSLH  &kp PIPE   &kp SEMI  &kp COLON     &kp PLUS  &kp BSLH  &kp FSLH  &kp AT_SIGN   &kp LBKT           &kp RBKT
+                                    &trans      &none      &to 0    &kp ENTER     &mo 3     &mo 2
             >;
         };
 
         NUMBER {
             label = "NUMBER";
             bindings = <
-       &kp ESC     &kp AT  &kp N1  &kp N2  &kp N3  &kp EQUAL    &kp F1   &kp F2   &kp F3   &kp F4  &none  &kp BSPC
-&kp LEFT_SHIFT  &kp MINUS  &kp N4  &kp N5  &kp N6     &kp N0    &kp F5   &kp F6   &kp F7   &kp F8  &none     &none
-     &kp LCTRL   &kp PLUS  &kp N7  &kp N8  &kp N9    &kp DOT    &kp F9  &kp F10  &kp F11  &kp F12  &none     &none
-                                    &to 3   &mo 8      &to 0    &trans    &mo 3   &trans
+       &kp ESC  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BSPC
+&kp LEFT_SHIFT        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5         &kp F11        &kp F7        &kp F8        &kp F9       &kp F11     &none
+     &kp LCTRL      &kp PLUS        &kp N7        &kp N8        &kp N9       &kp DOT          &kp F9       &kp F10       &kp F11       &kp F12         &none     &none
+                                                   &to 3         &mo 8         &to 0          &trans         &mo 3        &trans
             >;
         };
 
