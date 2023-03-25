@@ -163,8 +163,8 @@
             label = "NUMBER";
             bindings = <
        &kp ESC  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BSPC
-&kp LEFT_SHIFT        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5         &kp F11        &kp F7        &kp F8        &kp F9       &kp F11     &none
-     &kp LCTRL      &kp PLUS        &kp N7        &kp N8        &kp N9       &kp DOT          &kp F9       &kp F10       &kp F11       &kp F12         &none     &none
+&kp LEFT_SHIFT        &kp F1        &kp F2       &kp F11        &kp F4        &kp F5    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &none
+     &kp LCTRL      &kp PLUS        &kp N7        &kp N8        &kp N9       &kp DOT    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0     &none
                                                    &to 3         &mo 8         &to 0          &trans         &mo 3        &trans
             >;
         };
